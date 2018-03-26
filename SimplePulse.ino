@@ -28,7 +28,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 /* Project : IoT Heart Rate Monitor
    Written by: Raj Bhatt (02/25/2017)
 
-   Modified byl Allen Spain (03/16/2018)
+   Modified by Allen Spain (03/16/2018)
 
 */
 
