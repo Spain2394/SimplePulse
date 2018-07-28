@@ -1,3 +1,14 @@
+/* Project : IoT Heart Rate Monitor
+   Written by: Raj Bhatt (02/25/2017)
+   from http://embedded-lab.com/blog/heart-rate-monitoring-internet-using-esp8266  
+   
+   Modified by: Allen Spain 8/15/2017
+
+*/
+
+
+
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -25,12 +36,6 @@ Adafruit_SSD1306 display(OLED_RESET);
 #define Moving_Average_Num 5
 
 
-/* Project : IoT Heart Rate Monitor
-   Written by: Raj Bhatt (02/25/2017)
-
-   Modified by Allen Spain (03/16/2018)
-
-*/
 
 unsigned long startTime= 0;
 unsigned long currentTime = 0;
