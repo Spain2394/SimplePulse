@@ -1,2 +1,2 @@
 # SimplePulse
-Filter and display pulse signal on .96" OLED display module
+Filter and display blood pulse signal on .96" OLED display module
